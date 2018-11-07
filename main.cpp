@@ -65,10 +65,9 @@ int main(){
         cout << "To Roll for Strength " <<endl;
         cout << "Press enter to roll" << endl;
         cin.ignore(numeric_limits<streamsize>::max(),'\n');
-        if (rdy = "roll"){
-            cout << rollsix << endl;
-            atroll[rn] = rollsix;
-        }
+        cout << rollsix << endl;
+        atroll[rn] = rollsix;
+        
     }
     cout<< "Your Rolls are: " << endl;
     for(int rn = 0; rn < 4; ++rn ){
